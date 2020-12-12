@@ -1,0 +1,44 @@
+{
+	"components": {
+		"logger": {
+			"fileLogLevel": "debug",
+			"logFileName": "logs/betanet/feel.log",
+			"consoleLogLevel": "error"
+		},
+		"storage": {
+			"database": "feel_beta",
+			"logFileName": "logs/betanet/feel_db.log"
+		},
+		"cache": {}
+	},
+	"modules": {
+		"http_api": {
+			"httpPort": 5500
+		},
+		"network": {
+			"seedPeers": [
+				{
+					"ip": "betanet-seed-01.feel.surf",
+					"wsPort": 5001
+				},
+				{
+					"ip": "betanet-seed-02.feel-nodes.net",
+					"wsPort": 5001
+				},
+				{
+					"ip": "betanet-seed-03.feel.surf",
+					"wsPort": 5001
+				},
+				{
+					"ip": "betanet-seed-04.feel-nodes.net",
+					"wsPort": 5001
+				},
+				{
+					"ip": "betanet-seed-05.feel.surf",
+					"wsPort": 5001
+				}
+			],
+			"wsPort": 5001
+		}
+	}
+}

@@ -1,0 +1,47 @@
+# Base file, do not modifiy.
+# Make changes in docker-compose.override.yml instead.
+# See https://docs.docker.com/compose/extends/#example-use-case
+version: "3"
+services:
+
+  feel:
+    image: feel/core:${ENV_FEEL_VERSION}
+    volumes:
+      - feel-logs:/home/feel/feel/logs/
+    ports:
+      - ${ENV_FEEL_HTTP_PORT}:${ENV_FEEL_HTTP_PORT}
+      - ${ENV_FEEL_WS_PORT}:${ENV_FEEL_WS_PORT}
+    networks:
+      - feel
+    depends_on:
+      - db
+    restart: unless-stopped
+    entrypoint: ["/home/feel/wait-for-it.sh", "db:5432", "--", "node", "/home/feel/feel/dist/index.js"]
+    command: ["-n", "${ENV_FEEL_NETWORK}"]
+    environment:
+      - FEEL_DB_HOST=db
+      - FEEL_DB_USER=${ENV_FEEL_DB_USER}
+      - FEEL_DB_PASSWORD=${ENV_FEEL_DB_PASSWORD}
+      - FEEL_DB_NAME=${ENV_FEEL_DB_DATABASE}
+      - FEEL_FILE_LOG_LEVEL=none
+      - FEEL_CONSOLE_LOG_LEVEL=info
+      - FEEL_CACHE_ENABLED=false
+
+  db:
+    image: postgres:10-alpine
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - feel
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=${ENV_FEEL_DB_DATABASE}
+      - POSTGRES_PASSWORD=${ENV_FEEL_DB_PASSWORD}
+      - POSTGRES_USER=${ENV_FEEL_DB_USER}
+
+networks:
+  feel:
+
+volumes:
+  db-data:
+  feel-logs:

@@ -1,0 +1,19 @@
+# Override file to add caching (redis) to the base configuration
+# E.g.: docker-compose -f docker-compose.yml -f docker-compose.redis.yml -f docker-compose.override.yml up -d
+version: "3"
+services:
+
+  feel:
+    depends_on:
+      - redis
+    environment:
+      - FEEL_CACHE_ENABLED=true
+      - FEEL_REDIS_HOST=redis
+      - FEEL_REDIS_PORT=6379
+
+  redis:
+    image: redis:alpine
+    networks:
+      - feel
+    restart: unless-stopped
+    command: --maxclients 500 --tcp-backlog 128 --maxmemory-policy allkeys-lru --save ""
