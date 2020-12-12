@@ -1,5 +1,5 @@
 /*
- * FeelHQ/feel-scripts/updateConfig.js
+ * feelfoundation/feel-scripts/updateConfig.js
  * Copyright (C) 2017 Feel Foundation
  *
  * See the LICENSE file at the top-level directory of this distribution

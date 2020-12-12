@@ -2,7 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 #
-# FeelHQ/feel-scripts/packaged/tune.sh
+# feelfoundation/feel-scripts/packaged/tune.sh
 # Copyright (C) 2017 Feel Foundation
 #
 # This program is free software: you can redistribute it and/or modify

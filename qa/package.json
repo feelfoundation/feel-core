@@ -11,13 +11,13 @@
     "feel",
     "blockchain"
   ],
-  "homepage": "https://github.com/FeelHQ/feel-core-qa-external#readme",
+  "homepage": "https://github.com/feelfoundation/feel-core-qa-external#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FeelHQ/feel-core-qa-external.git"
+    "url": "git+https://github.com/feelfoundation/feel-core-qa-external.git"
   },
   "bugs": {
-    "url": "https://github.com/FeelHQ/feel-core-qa-external/issues"
+    "url": "https://github.com/feelfoundation/feel-core-qa-external/issues"
   },
   "scripts": {
     "format": "prettier --write \"**/*.{js,json,md}\"",

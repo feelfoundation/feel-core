@@ -3,7 +3,7 @@
 First off, thanks for taking the time to contribute! :raised_hands:
 
 The following is a set of guidelines for contributing to Feel Core, which
-are hosted in the [FeelHQ Organization](https://github.com/FeelHQ) on GitHub.
+are hosted in the [feelfoundation Organization](https://github.com/feelfoundation) on GitHub.
 These are mostly guidelines, not rules. Use your best judgment, and feel free to
 propose changes to this document in a pull request.
 
@@ -33,7 +33,7 @@ expected to uphold this code. Please report unacceptable behavior to
 
 ## Project License
 
-Every repository within FeelHQ comes with a LICENSE file. Please read it
+Every repository within feelfoundation comes with a LICENSE file. Please read it
 carefully before committing your code to one of the repositories.
 
 ## Help! I don’t want to read this whole thing, I just have a question. :mag_right:
@@ -44,15 +44,15 @@ to get help. These are some of them:
 * [Discuss and Ask on Reddit](https://www.reddit.com/r/Feel/)
 * [Feel FAQ](https://docs.feel.surf/docs/faq)
 
-If you prefer to chat with FeelHQ and other developers directly:
+If you prefer to chat with feelfoundation and other developers directly:
 
-* [Join the FeelHQ Gitter](https://gitter.im/FeelHQ/feel)
+* [Join the feelfoundation Gitter](https://gitter.im/feelfoundation/feel)
 * Even though Gitter is a chat service, sometimes it takes several hours for
   community members to respond &mdash; please be patient!
 
 ## How Can I Contribute?
 
-FeelHQ uses GitHub as its sole source of truth. Everything happens here.
+feelfoundation uses GitHub as its sole source of truth. Everything happens here.
 Lightcurve employees who contribute to Feel are expected to do so in the same
 way as everyone else. In other words, this document applies equally to all
 contributors.
@@ -90,7 +90,7 @@ _Before_ submitting a pull request, please make sure the following is done:
    changes that adhere to your new code.
 1. Ensure the test and linting suites pass. Follow the
    [JavaScript](https://github.com/airbnb/javascript) styleguide from Airbnb
-   with the [feel extension](https://github.com/FeelHQ/eslint-config-feel-base).
+   with the [feel extension](https://github.com/feelfoundation/eslint-config-feel-base).
 1. Format your code using [Prettier](https://prettier.io/). This can be performed manually
    with `npm run format`.
 1. Submit a pull request via GitHub. Include issue numbers in the PR title, at
@@ -123,9 +123,9 @@ helps us resolve issues faster.
 * **Check the [FAQs](https://docs.feel.surf/docs/faq)** for a list of common
   questions and problems.
 * **Determine
-  [which repository the problem should be reported in](https://github.com/FeelHQ)**.
+  [which repository the problem should be reported in](https://github.com/feelfoundation)**.
 * **Perform a
-  [cursory search](https://github.com/search?utf8=%E2%9C%93&q=+is%3Aissue+org%3AFeelHQ&type=)**
+  [cursory search](https://github.com/search?utf8=%E2%9C%93&q=+is%3Aissue+org%3Afeelfoundation&type=)**
   to see if the problem has already been reported. If it has **and the issue is
   still open**, add a comment to the existing issue instead of opening a new
   one.
@@ -133,7 +133,7 @@ helps us resolve issues faster.
 #### How Do I Submit A (Good) Bug Report?
 
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
-After you’ve determined [which repository](https://github.com/FeelHQ) your bug
+After you’ve determined [which repository](https://github.com/feelfoundation) your bug
 is related to, create an issue on that repository and provide the following
 information by filling in [the template](ISSUE_TEMPLATE.md).
 
@@ -170,7 +170,7 @@ Provide more context by answering these questions:
 * If the problem started happening recently, **can you reproduce the problem in
   an older version of Feel Core?** What’s the most recent version in which
   the problem doesn’t happen? You can download older versions of Feel Core
-  from [the releases page](https://github.com/FeelHQ/Feel Core/releases).
+  from [the releases page](https://github.com/feelfoundation/Feel Core/releases).
 * **Can you reliably reproduce the issue?** If not, provide details about how
   often the problem happens and under which conditions it normally happens.
 
@@ -190,7 +190,7 @@ you imagine you would take if the feature you’re requesting existed.
 
 Enhancement suggestions are tracked as
 [GitHub issues](https://guides.github.com/features/issues/). After you’ve
-determined [which repository](https://github.com/FeelHQ) your enhancement
+determined [which repository](https://github.com/feelfoundation) your enhancement
 suggestion is related to, create an issue on that repository and provide the
 following information:
 
@@ -244,7 +244,7 @@ On Feel we are using [Prettier](https://prettier.io/) and
 [ESLint](https://eslint.org/). Our ESLint style expands
 [Airbnb’s](https://github.com/airbnb/javascript) style settings and expresses
 some opinions not covered by Prettier’s formatting concerns. You can get more
-details here: https://github.com/FeelHQ/eslint-config-feel-base
+details here: https://github.com/feelfoundation/eslint-config-feel-base
 
 ### Code Documentation Styleguide
 

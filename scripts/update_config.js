@@ -1,5 +1,5 @@
 /*
- * FeelHQ/feel-scripts/updateConfig.js
+ * feelfoundation/feel-scripts/updateConfig.js
  * Copyright (C) 2017 Feel Foundation
  *
  * See the LICENSE file at the top-level directory of this distribution
@@ -77,7 +77,7 @@ if (typeof network === 'undefined') {
 }
 
 // TODO: Default config is not accessible this way right now
-// 	Will be fixed with https://github.com/FeelHQ/feel/issues/3171
+// 	Will be fixed with https://github.com/feelfoundation/feel/issues/3171
 const appConfig = {
 	app: {
 		version: packageJSON.version,

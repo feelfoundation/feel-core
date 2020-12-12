@@ -2,7 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 #
-# FeelHQ/feel-scripts/feel_snaphot.sh
+# feelfoundation/feel-scripts/feel_snaphot.sh
 # Copyright (C) 2019 Feel Foundation
 #
 # This program is free software: you can redistribute it and/or modify

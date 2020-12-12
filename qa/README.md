@@ -83,7 +83,7 @@ brew install node@10.14.1
 Clone the Feel Core repository using Git and initialize the modules.
 
 ```
-git clone https://github.com/FeelHQ/feel-core.git
+git clone https://github.com/feelfoundation/feel-core.git
 git checkout master
 cd feel-core/qa
 npm i
@@ -105,7 +105,7 @@ Example:
 ```
 
 ### Network-Mode
-To run tests against network mode, start multiple [Feel Core](https://feel.surf/documentation/feel-core/setup/source) and configure peers list in  [Feel Core Default Config](https://github.com/FeelHQ/feel/blob/e81cb2af687b2e3a4f3bd8e159d44c4750e42166/config/default/config.json#L62) for peer discovery, once you have the Feel Core Network up and running.
+To run tests against network mode, start multiple [Feel Core](https://feel.surf/documentation/feel-core/setup/source) and configure peers list in  [Feel Core Default Config](https://github.com/feelfoundation/feel/blob/e81cb2af687b2e3a4f3bd8e159d44c4750e42166/config/default/config.json#L62) for peer discovery, once you have the Feel Core Network up and running.
 
 #### Add-peers-to-config-Network-Mode
 In order to run network test in Network mode add all the peers to [config](fixtures/config.json)

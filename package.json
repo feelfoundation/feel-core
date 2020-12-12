@@ -12,13 +12,13 @@
 		"nodejs",
 		"javascript"
 	],
-	"homepage": "https://github.com/FeelHQ/feel-core#readme",
+	"homepage": "https://github.com/feelfoundation/feel-core#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/FeelHQ/feel-core.git"
+		"url": "git+https://github.com/feelfoundation/feel-core.git"
 	},
 	"bugs": {
-		"url": "https://github.com/FeelHQ/feel-sdk/issues"
+		"url": "https://github.com/feelfoundation/feel-sdk/issues"
 	},
 	"engines": {
 		"node": "10.20.1",

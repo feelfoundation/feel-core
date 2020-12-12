@@ -24,7 +24,7 @@ const genesisBlock = require('../../../config/devnet/genesis_block.json');
 const dirPath = __dirname;
 const rootPath = path.dirname(path.resolve(__filename, '../../../'));
 
-// TODO: Enable again after the issue https://github.com/FeelHQ/feel/issues/3171
+// TODO: Enable again after the issue https://github.com/feelfoundation/feel/issues/3171
 // eslint-disable-next-line mocha/no-skipped-tests
 describe('scripts/update_config', () => {
 	const updatedConfigPath = `${dirPath}/updated_config.json`;

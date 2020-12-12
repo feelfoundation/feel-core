@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# FeelHQ/feel-scripts/env.sh
+# feelfoundation/feel-scripts/env.sh
 # Copyright (C) 2017 Feel Foundation
 #
 # This program is free software: you can redistribute it and/or modify

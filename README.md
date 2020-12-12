@@ -3,11 +3,11 @@
 # Feel Core
 
 [![Build Status](https://jenkins.feel.surf/buildStatus/icon?job=feel-core/development)](https://jenkins.feel.surf/job/feel-core/job/development)
-[![Coverage Status](https://coveralls.io/repos/github/FeelHQ/feel/badge.svg?branch=development)](https://coveralls.io/github/FeelHQ/feel?branch=development)
+[![Coverage Status](https://coveralls.io/repos/github/feelfoundation/feel/badge.svg?branch=development)](https://coveralls.io/github/feelfoundation/feel?branch=development)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Join the chat at https://gitter.im/FeelHQ/feel](https://badges.gitter.im/FeelHQ/feel.svg)](https://gitter.im/FeelHQ/feel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-<a href="https://david-dm.org/FeelHQ/feel"><img src="https://david-dm.org/FeelHQ/feel.svg" alt="Dependency Status"></a>
-<a href="https://david-dm.org/FeelHQ/feel/?type=dev"><img src="https://david-dm.org/FeelHQ/feel/dev-status.svg" alt="devDependency Status"></a>
+[![Join the chat at https://gitter.im/feelfoundation/feel](https://badges.gitter.im/feelfoundation/feel.svg)](https://gitter.im/feelfoundation/feel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<a href="https://david-dm.org/feelfoundation/feel"><img src="https://david-dm.org/feelfoundation/feel.svg" alt="Dependency Status"></a>
+<a href="https://david-dm.org/feelfoundation/feel/?type=dev"><img src="https://david-dm.org/feelfoundation/feel/dev-status.svg" alt="devDependency Status"></a>
 
 Feel is a next-generation crypto-currency and decentralized application platform, written entirely in JavaScript. The official documentation about the whole ecosystem can be found in https://feel.surf/documentation.
 
@@ -50,7 +50,7 @@ You can find further details on installing these dependencies in our [pre-instal
 Clone the Feel Core repository using Git and initialize the modules.
 
 ```bash
-git clone https://github.com/FeelHQ/feel-core.git
+git clone https://github.com/feelfoundation/feel-core.git
 cd feel-core
 git checkout master
 npm ci
@@ -251,7 +251,7 @@ name of the network you started. e.g. `feel-mainnet`, `feel-testnet`.
 
 ## Contributors
 
-https://github.com/FeelHQ/feel-core/graphs/contributors
+https://github.com/feelfoundation/feel-core/graphs/contributors
 
 ## License
 
@@ -281,4 +281,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [feel documentation site]: https://feel.surf/documentation
-[feel sdk github]: https://github.com/FeelHQ/feel-sdk
+[feel sdk github]: https://github.com/feelfoundation/feel-sdk
